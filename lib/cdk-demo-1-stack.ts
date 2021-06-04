@@ -48,6 +48,13 @@ export class CdkDemo1Stack extends cdk.Stack {
       },
     });
 
+    // TO DO
+    const taskDefinition = new ecs.Ec2TaskDefinition(this, 'TaskDef');
+
+    taskDefinition.addContainer('DefaultContainer', {
+      image: ecs.ContainerImage.fromRegistry("amazon/amazon-ecs-sample"),
+      memoryLimitMiB: 512,
+    });
 
   }
 }
