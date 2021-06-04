@@ -64,7 +64,7 @@ This project is to faciitate knowledge sharing in the CIB Digital Cloud team abo
 
  ## Submitting an issue
 
- If you encounter a bug in Qman Infrastructure code, please first search the list of current open Issues on the GitHub repository. You may add additional feedback on an existing bug report. If the issue you're having has not yet been reported, please open a new issue. There is a template available for new issues. Please fill out all information requested in the template so we can help you more easily.
+ If you encounter a bug in the code, please first search the list of current open Issues on the GitHub repository. You may add additional feedback on an existing bug report. If the issue you're having has not yet been reported, please open a new issue. There is a template available for new issues. Please fill out all information requested in the template so we can help you more easily.
 
 
 ## License summary
