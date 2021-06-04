@@ -1,6 +1,6 @@
 # Standard Bank - CIB IT Workshop project!
 
-This project is to faciitate knowledge sharing in the CIB Digital Cloud team about the CDK code for the infrastructure rollout for workloads. 
+This project is to facilitate knowledge sharing in the CIB Digital Cloud team about the CDK code for the infrastructure rollout for workloads. 
 
 ## Table of contents
 
