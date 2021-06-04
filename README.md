@@ -5,12 +5,19 @@ This project is to faciitate knowledge sharing in the CIB Digital Cloud team abo
 ## Table of contents
 
 1. `cdk-demo-1`     Deploy custom VPC and ECS Fargate deployment
+
 2. `cdk-demo-2`     Comming soon
+
 3. `cdk-demo-3`     Comming soon
+
 4. `cdk-demo-4`     Comming soon
+
 5. `cdk-demo-5`     Comming soon
+
 6. `cdk-demo-6`     Comming soon
+
 7. `cdk-demo-7`     Comming soon
+
 8. `cdk-demo-8`     Comming soon
 
 
