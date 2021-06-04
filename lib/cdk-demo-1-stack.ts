@@ -39,6 +39,14 @@ export class CdkDemo1Stack extends cdk.Stack {
       desiredCapacity: 2,
     });
 
+    new ecsPatterns.ApplicationLoadBalancedFargateService(this, "CdkDemoEcsFargate", {
+      cluster,
+      memoryLimitMiB: 1024,
+      cpu: 512,
+      taskImageOptions: {
+        image: ecs.ContainerImage.fromRegistry("nginx"),
+      },
+    });
 
 
   }
