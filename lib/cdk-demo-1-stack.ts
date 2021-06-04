@@ -29,6 +29,16 @@ export class CdkDemo1Stack extends cdk.Stack {
      ]
     });
 
+    const cluster = new ecs.Cluster(this, 'EcsCluster', { 
+      vpc,    
+    });
+
+    // Add capacity to it
+    cluster.addCapacity('DefaultAutoScalingGroupCapacity', {
+      instanceType: new ec2.InstanceType("t2.nano"),
+      desiredCapacity: 2,
+    });
+
 
 
   }
