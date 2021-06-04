@@ -45,7 +45,6 @@ This project is to faciitate knowledge sharing in the CIB Digital Cloud team abo
 
 2. Run `cdk list` to view all the cdk stack available
 
-<!-- 3. Deploy the stacks in the order listed above -->
 
  
  ## Testing
